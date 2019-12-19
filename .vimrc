@@ -4,9 +4,6 @@ filetype off
 set hidden " To be able to open new buffer without saving current file
 
 set rtp+=/mnt/c/Users/Maxi/.vim/bundle/Vundle.vim
-"set rtp+=/mnt/c/Users/Maxi/vimfiles/bundle/Vundle.vim
-"set rtp+=~/.vim/bundle/Vundle.vim
-
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
