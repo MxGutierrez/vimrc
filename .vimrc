@@ -10,10 +10,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
-
 Plugin 'altercation/vim-colors-solarized'
 " Plugin 'dracula/vim'
-
 call vundle#end()     
 filetype plugin indent on  
 
@@ -27,7 +25,6 @@ set shiftwidth=2
 set expandtab
 set ruler
 set number " Column numbers left
-set clipboard=unnamed
 set wildmenu " To have scrollable tab sugestions when <C-d>. Ej.: :colorscheme <C-d>
 set wildmode=full
 set history=150 " Increase command line memory from 20 to 150
@@ -42,8 +39,8 @@ nnoremap fj o<esc>k
 nnoremap fk O<esc>j
 
 nnoremap <F3> :e $MYVIMRC<CR>
-nnoremap <silent> <C-p> :NERDTreeToggle<CR>
-nnoremap <silent> <Leader>, :nohlsearch<CR> " Turn of hlsearch, it reactivates on next search
+nnoremap <silent> <Leader>p :NERDTreeToggle<CR>
+nnoremap <silent> <Leader>l :nohlsearch<CR> " Turn off hlsearch, it reactivates on next search
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
