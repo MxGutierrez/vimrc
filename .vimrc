@@ -12,8 +12,8 @@ Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'altercation/vim-colors-solarized'
 " Plugin 'dracula/vim'
-call vundle#end()     
-filetype plugin indent on  
+call vundle#end()
+filetype plugin indent on
 
 set t_Co=256
 set background=dark
@@ -30,7 +30,7 @@ set wildmode=full
 set history=150 " Increase command line memory from 20 to 150
 set showmatch " Highlight matching {[()]}
 
-set hlsearch " Highlight when searching through / command 
+set hlsearch " Highlight when searching through / command
 set incsearch " Highlight as characters are entered
 set visualbell " Blink cursor on error instead of beeping
 
