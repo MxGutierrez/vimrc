@@ -42,6 +42,10 @@ nnoremap <F3> :e $MYVIMRC<CR>
 nnoremap <silent> <Leader>p :NERDTreeToggle<CR>
 nnoremap <silent> <Leader>l :nohlsearch<CR> " Turn off hlsearch, it reactivates on next search
 
+" To zoom a specific window
+noremap <Leader>o <c-w>_ \| <c-w>\|
+noremap <Leader>= <c-w>=
+
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
   set mouse=a
